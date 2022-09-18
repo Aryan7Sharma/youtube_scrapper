@@ -1,0 +1,524 @@
+2022-09-18 14:25:53,172 -- scrapping.py -- channel name scrapped successfully -- INFO
+2022-09-18 14:25:53,178 -- scrapping.py -- total subscribers scrapped successfully -- INFO
+2022-09-18 14:25:53,183 -- scrapping.py -- youtuber profile picture scrapped successfully -- INFO
+2022-09-18 14:25:53,204 -- scrapping.py -- no_of_videos by user want -- 1 -- INFO
+2022-09-18 14:25:53,204 -- scrapping.py -- total videos on the channel -- 30 -- INFO
+2022-09-18 14:25:53,204 -- scrapping.py -- Videos title scrapped successfully -- INFO
+2022-09-18 14:25:53,204 -- scrapping.py -- videos_url and videos id scrapped successfully -- INFO
+2022-09-18 14:25:53,224 -- scrapping.py -- thumbnail scrapped successfully -- INFO
+2022-09-18 14:25:53,235 -- scrapping.py -- all_videos_page_data.csv csv file created successfully -- INFO
+2022-09-18 14:25:53,235 -- scrapping.py -- data1 scrapped successfully -- INFO
+2022-09-18 14:25:53,235 -- scrapping.py -- [['Roadmap To Crack Your First Data Science Job'], ['https://www.youtube.com/watch?v=V20ZZt8lVxM'], ['https://i.ytimg.com/vi/V20ZZt8lVxM/hqdefault.jpg']] -- INFO
+2022-09-18 14:25:53,236 -- scrapping.py -- 0, --https://www.youtube.com/watch?v=V20ZZt8lVxM -- INFO
+2022-09-18 14:27:13,788 -- scrapping.py -- now in else, 0 -- INFO
+2022-09-18 14:27:15,093 -- scrapping.py -- out from else, 0 -- INFO
+2022-09-18 14:27:16,210 -- scrapping.py -- [[12096], ['588'], ['37 Comments'], {0: ['Krish Naik', 'Ravinder Singh', 'Prabhat Kumar', 'Apurva Khomane', 'Sahana Md', 'A s', 'Pawan Soni', 'Aaryan Divedi', 'Abhishek singh', 'Udaybhaskar Savvana', 'Parag Vachhani', 'Nick', 'ABHISHEK DUBEY', 'CommonSense 101', 'Poojitha sornapudi', 'A2 THE GENIUS', 'c.n Bhaskar', 'Shubham Upadhyay', 'SATYAJIT KHOT', 'Jeet P Thakore', 'Rishi Raj', 'Raja', 'B Kumar', 'Majid Az', 'Dharma Teja', 'NETHAJI MAHENDRA']}, {0: ['Hello All,\r\nToday we are Launching Full Stack Data Scientist Bootcamp 2.0 With job guaranteed starting from September 17th 2022 from 03:00 PM to 06:00 PM (IST) Saturday - Sunday and 6pm-8pm will be the doubt clearning session. The instructor of the course will be me and Sudhanshu. This course also comes up with previous recorded videos and will be available for lifetime.\r\nPlease find the entire curicullum below and use Krish10 to get additional 10% off .\r\nhttps://bit.ly/3DuA1ez\r\n \nGo ahead and enroll and learn from the best. \r\nMentors will be myself and Sudhanshu Kumar', 'I m having 8 years career gap and found only person that motivate to move forward and provide right guidance. A big thanks to you sir', 'Dear Krish, \nPlz put some light on future growth aspects of IT professionals in data domain mainly after completing 40 years of age .\nThanks you', 'Thank you for keeping us motivatied', 'Hi Krish I have one suggestion on internship.  When you go to your portal for internship, I dont really understand what to do after I select domain etc. What is next is not very well told. Probably it would be good if you clearly explain how to do internship.', 'Hi Krish, please make a video on how data scienctist can start a freelancing.', 'Sir what is the use of covariance matrix in fitting data in XY plot to find exponent. Please answer me...', 'hello sir, is postgrad diploma in AI and data science of two years form Canada beneficial? as I had done BCA so I cannot do masters there my only option is pg diploma.', "Hello sir, could you please make a video on how should one start if he wants to become a data scientist. Just a roadmap, as I'm from hospitality background and i know nothing about data science, so from where should i start, what are the skill that I've to learn. step by step", 'Hello Krish\nCan I know for doing an internship, we need to aware of that technologies right?', 'Yes sir it is so much valuable sharing\nBut sir I am 2 mounth old fresure in DS domin (just know about python, SQL, pandas, Numpy, etc basic stuff)\nI also used inueron platform for ML. but sir still i have no idea about diffrent algoritham and model deployment(but to fill reallife of data scientiest I try to made one movie recommandation website base on IMDb data set..its just like reverse engineering) even though can inueron provide internship?\n\nI really really want to do internship.\nPersonaly I met many company in surat(gujarat) but they r not required.  \n\nPlease guide me', 'Please make a video on data engineering that how to get a first job as data engineer like you made this video', 'Krish sir should I focus on big data too?', 'how can we get a data science internship', 'Can working people also can get internships? Or it is only freshers?', 'Hi Krish Sir , I want to go to harvard university for masters in machine learning\nPlease give roadmap for that', 'Hi krish , request you to pls complete nlp series', '125th viewer.. Can you tell current scenario of Analytics jobs... Is it decreasing this time?', 'Freshers(Recent Graduates) are not getting jobs, sir!!! In India, They need So called experience.', 'Great wallpaper sir, looks so real !!!!!!!!!!!!!!', 'Thanks', 'Nice Video', 'Ab bas mil jaye ek join karke mauj karenge...,', 'People still care about data science in 2022?', 'First Like And Comment ️', 'Hi Krish Naik, 3rd viewer']}] -- INFO
+2022-09-18 14:27:29,102 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:27:30,538 -- mongodb_data.py -- old data deleted -- INFO
+2022-09-18 14:27:31,539 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:27:31,540 -- mongodb_data.py -- connected with momngodb MongoClient(host=['cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:27:32,334 -- mongodb_data.py -- documents must have only string keys, key was 0 -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/mongodb_data.py", line 23, in upload_Videos_data
+    coll.insert_one(data)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 628, in insert_one
+    comment=comment,
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 557, in _insert_command
+    retryable_write=retryable_write,
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/pool.py", line 788, in command
+    write_concern=write_concern,
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/network.py", line 128, in command
+    flags, spec, dbname, read_preference, codec_options, ctx=compression_ctx
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: documents must have only string keys, key was 0
+2022-09-18 14:27:33,009 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:27:33,855 -- mongodb_data.py -- old data deleted -- INFO
+2022-09-18 14:27:34,088 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:27:34,855 -- mongodb_data.py -- documents must have only string keys, key was 0 -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/mongodb_data.py", line 34, in upload_Comments_section
+    coll.insert_one(data)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 628, in insert_one
+    comment=comment,
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1448, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1321, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1362, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 557, in _insert_command
+    retryable_write=retryable_write,
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/pool.py", line 794, in command
+    self._raise_connection_failure(error)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/pool.py", line 788, in command
+    write_concern=write_concern,
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/network.py", line 128, in command
+    flags, spec, dbname, read_preference, codec_options, ctx=compression_ctx
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/message.py", line 687, in _op_msg
+    return _op_msg_uncompressed(flags, command, identifier, docs, opts)
+bson.errors.InvalidDocument: documents must have only string keys, key was 0
+2022-09-18 14:32:38,346 -- scrapping.py -- channel_url = https://www.youtube.com/user/krishnaik06/videos -- INFO
+2022-09-18 14:32:51,567 -- scrapping.py -- channel name scrapped successfully -- INFO
+2022-09-18 14:32:51,572 -- scrapping.py -- total subscribers scrapped successfully -- INFO
+2022-09-18 14:32:51,576 -- scrapping.py -- youtuber profile picture scrapped successfully -- INFO
+2022-09-18 14:32:51,593 -- scrapping.py -- no_of_videos by user want -- 1 -- INFO
+2022-09-18 14:32:51,593 -- scrapping.py -- total videos on the channel -- 30 -- INFO
+2022-09-18 14:32:51,593 -- scrapping.py -- Videos title scrapped successfully -- INFO
+2022-09-18 14:32:51,593 -- scrapping.py -- videos_url and videos id scrapped successfully -- INFO
+2022-09-18 14:32:51,609 -- scrapping.py -- thumbnail scrapped successfully -- INFO
+2022-09-18 14:32:51,611 -- scrapping.py -- all_videos_page_data.csv csv file created successfully -- INFO
+2022-09-18 14:32:51,611 -- scrapping.py -- data1 scrapped successfully -- INFO
+2022-09-18 14:32:51,611 -- scrapping.py -- [['Roadmap To Crack Your First Data Science Job'], ['https://www.youtube.com/watch?v=V20ZZt8lVxM'], ['https://i.ytimg.com/vi/V20ZZt8lVxM/hqdefault.jpg']] -- INFO
+2022-09-18 14:32:51,613 -- scrapping.py -- 0, --https://www.youtube.com/watch?v=V20ZZt8lVxM -- INFO
+2022-09-18 14:34:09,284 -- scrapping.py -- now in else, 0 -- INFO
+2022-09-18 14:34:10,514 -- scrapping.py -- out from else, 0 -- INFO
+2022-09-18 14:34:11,332 -- scrapping.py -- [[12119], ['588'], ['37 Comments'], {'0': ['Krish Naik', 'Ravinder Singh', 'Prabhat Kumar', 'Apurva Khomane', 'Sahana Md', 'A s', 'Pawan Soni', 'Aaryan Divedi', 'Abhishek singh', 'Udaybhaskar Savvana', 'Parag Vachhani', 'Nick', 'ABHISHEK DUBEY', 'CommonSense 101', 'Poojitha sornapudi', 'A2 THE GENIUS', 'c.n Bhaskar', 'Shubham Upadhyay', 'SATYAJIT KHOT', 'Jeet P Thakore', 'Rishi Raj', 'Raja', 'B Kumar', 'Majid Az', 'Dharma Teja', 'NETHAJI MAHENDRA']}, {'0': ['Hello All,\r\nToday we are Launching Full Stack Data Scientist Bootcamp 2.0 With job guaranteed starting from September 17th 2022 from 03:00 PM to 06:00 PM (IST) Saturday - Sunday and 6pm-8pm will be the doubt clearning session. The instructor of the course will be me and Sudhanshu. This course also comes up with previous recorded videos and will be available for lifetime.\r\nPlease find the entire curicullum below and use Krish10 to get additional 10% off .\r\nhttps://bit.ly/3DuA1ez\r\n \nGo ahead and enroll and learn from the best. \r\nMentors will be myself and Sudhanshu Kumar', 'I m having 8 years career gap and found only person that motivate to move forward and provide right guidance. A big thanks to you sir', 'Dear Krish, \nPlz put some light on future growth aspects of IT professionals in data domain mainly after completing 40 years of age .\nThanks you', 'Thank you for keeping us motivatied', 'Hi Krish I have one suggestion on internship.  When you go to your portal for internship, I dont really understand what to do after I select domain etc. What is next is not very well told. Probably it would be good if you clearly explain how to do internship.', 'Hi Krish, please make a video on how data scienctist can start a freelancing.', 'Sir what is the use of covariance matrix in fitting data in XY plot to find exponent. Please answer me...', 'hello sir, is postgrad diploma in AI and data science of two years form Canada beneficial? as I had done BCA so I cannot do masters there my only option is pg diploma.', "Hello sir, could you please make a video on how should one start if he wants to become a data scientist. Just a roadmap, as I'm from hospitality background and i know nothing about data science, so from where should i start, what are the skill that I've to learn. step by step", 'Hello Krish\nCan I know for doing an internship, we need to aware of that technologies right?', 'Yes sir it is so much valuable sharing\nBut sir I am 2 mounth old fresure in DS domin (just know about python, SQL, pandas, Numpy, etc basic stuff)\nI also used inueron platform for ML. but sir still i have no idea about diffrent algoritham and model deployment(but to fill reallife of data scientiest I try to made one movie recommandation website base on IMDb data set..its just like reverse engineering) even though can inueron provide internship?\n\nI really really want to do internship.\nPersonaly I met many company in surat(gujarat) but they r not required.  \n\nPlease guide me', 'Please make a video on data engineering that how to get a first job as data engineer like you made this video', 'Krish sir should I focus on big data too?', 'how can we get a data science internship', 'Can working people also can get internships? Or it is only freshers?', 'Hi Krish Sir , I want to go to harvard university for masters in machine learning\nPlease give roadmap for that', 'Hi krish , request you to pls complete nlp series', '125th viewer.. Can you tell current scenario of Analytics jobs... Is it decreasing this time?', 'Freshers(Recent Graduates) are not getting jobs, sir!!! In India, They need So called experience.', 'Great wallpaper sir, looks so real !!!!!!!!!!!!!!', 'Thanks', 'Nice Video', 'Ab bas mil jaye ek join karke mauj karenge...,', 'People still care about data science in 2022?', 'First Like And Comment ️', 'Hi Krish Naik, 3rd viewer']}] -- INFO
+2022-09-18 14:34:11,548 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:34:13,308 -- mongodb_data.py -- old data deleted -- INFO
+2022-09-18 14:34:13,529 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:34:13,529 -- mongodb_data.py -- connected with momngodb MongoClient(host=['cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:34:14,696 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:34:15,594 -- mongodb_data.py -- old data deleted -- INFO
+2022-09-18 14:34:15,817 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:37:48,909 -- scrapping.py -- channel_url = https://www.youtube.com/user/krishnaik06/videos -- INFO
+2022-09-18 14:37:56,807 -- scrapping.py -- channel name scrapped successfully -- INFO
+2022-09-18 14:37:56,811 -- scrapping.py -- total subscribers scrapped successfully -- INFO
+2022-09-18 14:37:56,815 -- scrapping.py -- youtuber profile picture scrapped successfully -- INFO
+2022-09-18 14:37:56,832 -- scrapping.py -- no_of_videos by user want -- 1 -- INFO
+2022-09-18 14:37:56,832 -- scrapping.py -- total videos on the channel -- 30 -- INFO
+2022-09-18 14:37:56,832 -- scrapping.py -- Videos title scrapped successfully -- INFO
+2022-09-18 14:37:56,832 -- scrapping.py -- videos_url and videos id scrapped successfully -- INFO
+2022-09-18 14:37:56,849 -- scrapping.py -- thumbnail scrapped successfully -- INFO
+2022-09-18 14:37:56,851 -- scrapping.py -- all_videos_page_data.csv csv file created successfully -- INFO
+2022-09-18 14:37:56,851 -- scrapping.py -- data1 scrapped successfully -- INFO
+2022-09-18 14:37:56,851 -- scrapping.py -- [['Roadmap To Crack Your First Data Science Job'], ['https://www.youtube.com/watch?v=V20ZZt8lVxM'], ['https://i.ytimg.com/vi/V20ZZt8lVxM/hqdefault.jpg']] -- INFO
+2022-09-18 14:37:56,853 -- scrapping.py -- 0, --https://www.youtube.com/watch?v=V20ZZt8lVxM -- INFO
+2022-09-18 14:39:13,809 -- scrapping.py -- now in else, 0 -- INFO
+2022-09-18 14:39:15,125 -- scrapping.py -- out from else, 0 -- INFO
+2022-09-18 14:39:15,826 -- scrapping.py -- [[12181], ['589'], ['37 Comments'], {'0': ['Krish Naik', 'Ravinder Singh', 'Prabhat Kumar', 'Apurva Khomane', 'Sahana Md', 'A s', 'Pawan Soni', 'Aaryan Divedi', 'Abhishek singh', 'Udaybhaskar Savvana', 'Parag Vachhani', 'Nick', 'ABHISHEK DUBEY', 'CommonSense 101', 'Poojitha sornapudi', 'A2 THE GENIUS', 'c.n Bhaskar', 'Shubham Upadhyay', 'SATYAJIT KHOT', 'Jeet P Thakore', 'Rishi Raj', 'Raja', 'B Kumar', 'Majid Az', 'Dharma Teja', 'NETHAJI MAHENDRA']}, {'0': ['Hello All,\r\nToday we are Launching Full Stack Data Scientist Bootcamp 2.0 With job guaranteed starting from September 17th 2022 from 03:00 PM to 06:00 PM (IST) Saturday - Sunday and 6pm-8pm will be the doubt clearning session. The instructor of the course will be me and Sudhanshu. This course also comes up with previous recorded videos and will be available for lifetime.\r\nPlease find the entire curicullum below and use Krish10 to get additional 10% off .\r\nhttps://bit.ly/3DuA1ez\r\n \nGo ahead and enroll and learn from the best. \r\nMentors will be myself and Sudhanshu Kumar', 'I m having 8 years career gap and found only person that motivate to move forward and provide right guidance. A big thanks to you sir', 'Dear Krish, \nPlz put some light on future growth aspects of IT professionals in data domain mainly after completing 40 years of age .\nThanks you', 'Thank you for keeping us motivatied', 'Hi Krish I have one suggestion on internship.  When you go to your portal for internship, I dont really understand what to do after I select domain etc. What is next is not very well told. Probably it would be good if you clearly explain how to do internship.', 'Hi Krish, please make a video on how data scienctist can start a freelancing.', 'Sir what is the use of covariance matrix in fitting data in XY plot to find exponent. Please answer me...', 'hello sir, is postgrad diploma in AI and data science of two years form Canada beneficial? as I had done BCA so I cannot do masters there my only option is pg diploma.', "Hello sir, could you please make a video on how should one start if he wants to become a data scientist. Just a roadmap, as I'm from hospitality background and i know nothing about data science, so from where should i start, what are the skill that I've to learn. step by step", 'Hello Krish\nCan I know for doing an internship, we need to aware of that technologies right?', 'Yes sir it is so much valuable sharing\nBut sir I am 2 mounth old fresure in DS domin (just know about python, SQL, pandas, Numpy, etc basic stuff)\nI also used inueron platform for ML. but sir still i have no idea about diffrent algoritham and model deployment(but to fill reallife of data scientiest I try to made one movie recommandation website base on IMDb data set..its just like reverse engineering) even though can inueron provide internship?\n\nI really really want to do internship.\nPersonaly I met many company in surat(gujarat) but they r not required.  \n\nPlease guide me', 'Please make a video on data engineering that how to get a first job as data engineer like you made this video', 'Krish sir should I focus on big data too?', 'how can we get a data science internship', 'Can working people also can get internships? Or it is only freshers?', 'Hi Krish Sir , I want to go to harvard university for masters in machine learning\nPlease give roadmap for that', 'Hi krish , request you to pls complete nlp series', '125th viewer.. Can you tell current scenario of Analytics jobs... Is it decreasing this time?', 'Freshers(Recent Graduates) are not getting jobs, sir!!! In India, They need So called experience.', 'Great wallpaper sir, looks so real !!!!!!!!!!!!!!', 'Thanks', 'Nice Video', 'Ab bas mil jaye ek join karke mauj karenge...,', 'People still care about data science in 2022?', 'First Like And Comment ️', 'Hi Krish Naik, 3rd viewer']}] -- INFO
+2022-09-18 14:39:30,702 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-00.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:39:31,793 -- mongodb_data.py -- old data deleted -- INFO
+2022-09-18 14:39:32,053 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-00.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:39:32,053 -- mongodb_data.py -- connected with momngodb MongoClient(host=['cluster0-shard-00-00.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:39:33,179 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-00.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 14:39:34,151 -- mongodb_data.py -- old data deleted -- INFO
+2022-09-18 14:39:34,383 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-00.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 15:16:06,549 -- _internal.py -- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 -- INFO
+2022-09-18 15:16:06,550 -- _internal.py -- [33mPress CTRL+C to quit[0m -- INFO
+2022-09-18 15:16:06,550 -- _internal.py --  * Restarting with stat -- INFO
+2022-09-18 15:16:06,955 -- _internal.py --  * Debugger is active! -- WARNING
+2022-09-18 15:16:06,992 -- _internal.py --  * Debugger PIN: 998-182-262 -- INFO
+2022-09-18 15:16:11,463 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:16:11] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:16:11,472 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:16:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:16:12,406 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:16:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - -- INFO
+2022-09-18 15:16:21,962 -- scrapping.py -- channel_url = https://www.youtube.com/user/krishnaik06/videos -- INFO
+2022-09-18 15:18:10,284 -- scrapping.py -- Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.102)
+Stacktrace:
+#0 0x559fbf566693 <unknown>
+#1 0x559fbf35fb0a <unknown>
+#2 0x559fbf33fc63 <unknown>
+#3 0x559fbf3b8ffb <unknown>
+#4 0x559fbf3c8a89 <unknown>
+#5 0x559fbf3b5743 <unknown>
+#6 0x559fbf38b533 <unknown>
+#7 0x559fbf38c715 <unknown>
+#8 0x559fbf5b67bd <unknown>
+#9 0x559fbf5b9bf9 <unknown>
+#10 0x559fbf59bf2e <unknown>
+#11 0x559fbf5ba9b3 <unknown>
+#12 0x559fbf58fe4f <unknown>
+#13 0x559fbf5d9ea8 <unknown>
+#14 0x559fbf5da052 <unknown>
+#15 0x559fbf5f471f <unknown>
+#16 0x7f363386bea7 <unknown>
+ -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/scrapping.py", line 107, in all_videos_page
+    driver.maximize_window()
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 596, in maximize_window
+    self.execute(command, None)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    self.error_handler.check_response(response)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.102)
+Stacktrace:
+#0 0x559fbf566693 <unknown>
+#1 0x559fbf35fb0a <unknown>
+#2 0x559fbf33fc63 <unknown>
+#3 0x559fbf3b8ffb <unknown>
+#4 0x559fbf3c8a89 <unknown>
+#5 0x559fbf3b5743 <unknown>
+#6 0x559fbf38b533 <unknown>
+#7 0x559fbf38c715 <unknown>
+#8 0x559fbf5b67bd <unknown>
+#9 0x559fbf5b9bf9 <unknown>
+#10 0x559fbf59bf2e <unknown>
+#11 0x559fbf5ba9b3 <unknown>
+#12 0x559fbf58fe4f <unknown>
+#13 0x559fbf5d9ea8 <unknown>
+#14 0x559fbf5da052 <unknown>
+#15 0x559fbf5f471f <unknown>
+#16 0x7f363386bea7 <unknown>
+
+2022-09-18 15:18:10,294 -- scrapping.py -- local variable 'videos_title' referenced before assignment -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/scrapping.py", line 284, in fetching_all_data
+    data1 = all_videos_page(url, videos, time)
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/scrapping.py", line 197, in all_videos_page
+    return [videos_title, total_videos_urls, videos_thumbnail]
+UnboundLocalError: local variable 'videos_title' referenced before assignment
+2022-09-18 15:18:10,295 -- app.py -- 'NoneType' object is not subscriptable -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/app.py", line 27, in search
+    for i in range(len(alldata_in_2darray[0])):
+TypeError: 'NoneType' object is not subscriptable
+2022-09-18 15:18:10,300 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:18:10] "[35m[1mPOST /scrapped_data HTTP/1.1[0m" 500 - -- INFO
+2022-09-18 15:18:10,311 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:18:10] "[36mGET /scrapped_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:18:10,312 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:18:10] "[36mGET /scrapped_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:18:10,320 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:18:10] "[36mGET /scrapped_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:19:38,276 -- scrapping.py -- channel_url = https://www.youtube.com/user/krishnaik06/videos -- INFO
+2022-09-18 15:20:53,190 -- _internal.py -- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 -- INFO
+2022-09-18 15:20:53,190 -- _internal.py -- [33mPress CTRL+C to quit[0m -- INFO
+2022-09-18 15:20:53,190 -- _internal.py --  * Restarting with stat -- INFO
+2022-09-18 15:20:53,593 -- _internal.py --  * Debugger is active! -- WARNING
+2022-09-18 15:20:53,597 -- _internal.py --  * Debugger PIN: 998-182-262 -- INFO
+2022-09-18 15:20:57,399 -- scrapping.py -- channel_url = https://www.youtube.com/user/krishnaik06/videos -- INFO
+2022-09-18 15:22:02,762 -- scrapping.py -- channel name scrapped successfully -- INFO
+2022-09-18 15:22:02,767 -- scrapping.py -- total subscribers scrapped successfully -- INFO
+2022-09-18 15:22:02,772 -- scrapping.py -- youtuber profile picture scrapped successfully -- INFO
+2022-09-18 15:22:02,791 -- scrapping.py -- no_of_videos by user want -- 1 -- INFO
+2022-09-18 15:22:02,791 -- scrapping.py -- total videos on the channel -- 30 -- INFO
+2022-09-18 15:22:02,791 -- scrapping.py -- Videos title scrapped successfully -- INFO
+2022-09-18 15:22:02,791 -- scrapping.py -- videos_url and videos id scrapped successfully -- INFO
+2022-09-18 15:22:02,810 -- scrapping.py -- thumbnail scrapped successfully -- INFO
+2022-09-18 15:22:02,812 -- scrapping.py -- all_videos_page_data.csv csv file created successfully -- INFO
+2022-09-18 15:22:02,812 -- scrapping.py -- data1 scrapped successfully -- INFO
+2022-09-18 15:22:02,812 -- scrapping.py -- [['Roadmap To Crack Your First Data Science Job'], ['https://www.youtube.com/watch?v=V20ZZt8lVxM'], ['https://i.ytimg.com/vi/V20ZZt8lVxM/hqdefault.jpg']] -- INFO
+2022-09-18 15:22:02,814 -- scrapping.py -- 0, --https://www.youtube.com/watch?v=V20ZZt8lVxM -- INFO
+2022-09-18 15:24:28,499 -- scrapping.py -- now in else, 0 -- INFO
+2022-09-18 15:24:29,257 -- scrapping.py -- 'NoneType' object has no attribute 'text' -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/scrapping.py", line 256, in each_video_info
+    likes = soup.find('yt-formatted-string', {'class': 'style-scope ytd-toggle-button-renderer style-text'}).text
+AttributeError: 'NoneType' object has no attribute 'text'
+2022-09-18 15:24:29,257 -- scrapping.py -- [[], [], [], {}, {}] -- INFO
+2022-09-18 15:24:59,454 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 15:25:29,473 -- mongodb_data.py -- No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326eaf39e4cf9940b53b141, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]> -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/mongodb_data.py", line 45, in drop_old_data
+    coll.drop()
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 1193, in drop
+    self.__name, session=session, comment=comment, encrypted_fields=encrypted_fields
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/database.py", line 1061, in drop_collection
+    return self._drop_helper(name, session, comment)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/database.py", line 960, in _drop_helper
+    with self.__client._socket_for_writes(session) as sock_info:
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1239, in _socket_for_writes
+    server = self._select_server(writable_server_selector, session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1229, in _select_server
+    server = topology.select_server(server_selector)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 272, in select_server
+    server = self._select_server(selector, server_selection_timeout, address)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 261, in _select_server
+    servers = self.select_servers(selector, server_selection_timeout, address)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 223, in select_servers
+    server_descriptions = self._select_servers_loop(selector, server_timeout, address)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 240, in _select_servers_loop
+    % (self._error_message(selector), timeout, self.description)
+pymongo.errors.ServerSelectionTimeoutError: No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326eaf39e4cf9940b53b141, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]>
+2022-09-18 15:25:35,767 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 15:25:35,767 -- mongodb_data.py -- connected with momngodb MongoClient(host=['cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 15:26:05,787 -- mongodb_data.py -- No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326eb179e4cf9940b53b142, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]> -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/mongodb_data.py", line 23, in upload_Videos_data
+    coll.insert_one(data)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 628, in insert_one
+    comment=comment,
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1447, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1729, in _tmp_session
+    s = self._ensure_session(session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1712, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1657, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 555, in _check_session_support
+    readable_server_selector, self.get_server_selection_timeout(), None
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 240, in _select_servers_loop
+    % (self._error_message(selector), timeout, self.description)
+pymongo.errors.ServerSelectionTimeoutError: No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326eb179e4cf9940b53b142, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]>
+2022-09-18 15:26:06,065 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 15:26:36,085 -- mongodb_data.py -- No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326eb369e4cf9940b53b144, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]> -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/mongodb_data.py", line 45, in drop_old_data
+    coll.drop()
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 1193, in drop
+    self.__name, session=session, comment=comment, encrypted_fields=encrypted_fields
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/database.py", line 1061, in drop_collection
+    return self._drop_helper(name, session, comment)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/database.py", line 960, in _drop_helper
+    with self.__client._socket_for_writes(session) as sock_info:
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1239, in _socket_for_writes
+    server = self._select_server(writable_server_selector, session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1229, in _select_server
+    server = topology.select_server(server_selector)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 272, in select_server
+    server = self._select_server(selector, server_selection_timeout, address)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 261, in _select_server
+    servers = self.select_servers(selector, server_selection_timeout, address)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 223, in select_servers
+    server_descriptions = self._select_servers_loop(selector, server_timeout, address)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 240, in _select_servers_loop
+    % (self._error_message(selector), timeout, self.description)
+pymongo.errors.ServerSelectionTimeoutError: No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326eb369e4cf9940b53b144, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]>
+2022-09-18 15:26:36,287 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 15:27:06,306 -- mongodb_data.py -- No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326eb549e4cf9940b53b145, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]> -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/mongodb_data.py", line 34, in upload_Comments_section
+    coll.insert_one(data)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 628, in insert_one
+    comment=comment,
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1447, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1729, in _tmp_session
+    s = self._ensure_session(session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1712, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1657, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 555, in _check_session_support
+    readable_server_selector, self.get_server_selection_timeout(), None
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 240, in _select_servers_loop
+    % (self._error_message(selector), timeout, self.description)
+pymongo.errors.ServerSelectionTimeoutError: No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326eb549e4cf9940b53b145, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]>
+2022-09-18 15:27:06,307 -- app.py -- we are in for loop 0 -- INFO
+2022-09-18 15:27:06,307 -- app.py -- list index out of range -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/app.py", line 29, in search
+    dict = {"Title": alldata_in_2darray[0][i], "Videos_url": alldata_in_2darray[1][i], "Thumbnail": alldata_in_2darray[2][i], "Views": alldata_in_2darray[3][i], "Likes": alldata_in_2darray[4][i], "Total_Comments": alldata_in_2darray[5][i], "Commenter": alldata_in_2darray[6][str(i)], "Comments": alldata_in_2darray[7][str(i)]}
+IndexError: list index out of range
+2022-09-18 15:27:06,314 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:27:06] "[35m[1mPOST /scrapped_data HTTP/1.1[0m" 500 - -- INFO
+2022-09-18 15:27:06,336 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:27:06] "[36mGET /scrapped_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:27:06,337 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:27:06] "[36mGET /scrapped_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:27:06,354 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:27:06] "[36mGET /scrapped_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:33:37,753 -- _internal.py -- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 -- INFO
+2022-09-18 15:33:37,753 -- _internal.py -- [33mPress CTRL+C to quit[0m -- INFO
+2022-09-18 15:33:37,753 -- _internal.py --  * Restarting with stat -- INFO
+2022-09-18 15:33:38,158 -- _internal.py --  * Debugger is active! -- WARNING
+2022-09-18 15:33:38,162 -- _internal.py --  * Debugger PIN: 998-182-262 -- INFO
+2022-09-18 15:33:47,968 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:33:47] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:33:47,977 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:33:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:34:00,738 -- scrapping.py -- channel_url = https://www.youtube.com/user/krishnaik06/videos -- INFO
+2022-09-18 15:34:32,210 -- scrapping.py -- channel name scrapped successfully -- INFO
+2022-09-18 15:34:32,215 -- scrapping.py -- total subscribers scrapped successfully -- INFO
+2022-09-18 15:34:32,220 -- scrapping.py -- youtuber profile picture scrapped successfully -- INFO
+2022-09-18 15:34:32,236 -- scrapping.py -- no_of_videos by user want -- 1 -- INFO
+2022-09-18 15:34:32,237 -- scrapping.py -- total videos on the channel -- 30 -- INFO
+2022-09-18 15:34:32,237 -- scrapping.py -- Videos title scrapped successfully -- INFO
+2022-09-18 15:34:32,237 -- scrapping.py -- videos_url and videos id scrapped successfully -- INFO
+2022-09-18 15:34:32,254 -- scrapping.py -- thumbnail scrapped successfully -- INFO
+2022-09-18 15:34:32,256 -- scrapping.py -- all_videos_page_data.csv csv file created successfully -- INFO
+2022-09-18 15:34:32,256 -- scrapping.py -- data1 scrapped successfully -- INFO
+2022-09-18 15:34:32,256 -- scrapping.py -- [['Roadmap To Crack Your First Data Science Job'], ['https://www.youtube.com/watch?v=V20ZZt8lVxM'], ['https://i.ytimg.com/vi/V20ZZt8lVxM/hqdefault.jpg']] -- INFO
+2022-09-18 15:34:32,258 -- scrapping.py -- 0, --https://www.youtube.com/watch?v=V20ZZt8lVxM -- INFO
+2022-09-18 15:37:29,866 -- scrapping.py -- now in else, 0 -- INFO
+2022-09-18 15:37:31,105 -- scrapping.py -- out from else, 0 -- INFO
+2022-09-18 15:37:32,692 -- scrapping.py -- [[12656], ['600'], ['37 Comments'], {'0': ['Krish Naik', 'Ravinder Singh', 'Apurva Khomane', 'Prabhat Kumar', 'Sahana Md', 'A s', 'Parag Vachhani', 'Aaryan Divedi', 'Abhishek singh', 'Pawan Soni', 'ABHISHEK DUBEY', 'Poojitha sornapudi', 'c.n Bhaskar', 'Shubham Upadhyay', 'Raja', 'Udaybhaskar Savvana', 'Nick', 'A2 THE GENIUS', 'Jeet P Thakore', 'CommonSense 101', 'Rishi Raj', 'B Kumar', 'SATYAJIT KHOT', 'Dharma Teja', 'NETHAJI MAHENDRA', 'Majid Az']}, {'0': ['Hello All,\r\nToday we are Launching Full Stack Data Scientist Bootcamp 2.0 With job guaranteed starting from September 17th 2022 from 03:00 PM to 06:00 PM (IST) Saturday - Sunday and 6pm-8pm will be the doubt clearning session. The instructor of the course will be me and Sudhanshu. This course also comes up with previous recorded videos and will be available for lifetime.\r\nPlease find the entire curicullum below and use Krish10 to get additional 10% off .\r\nhttps://bit.ly/3DuA1ez\r\n \nGo ahead and enroll and learn from the best. \r\nMentors will be myself and Sudhanshu Kumar', 'I m having 8 years career gap and found only person that motivate to move forward and provide right guidance. A big thanks to you sir', 'Thank you for keeping us motivatied', 'Dear Krish, \nPlz put some light on future growth aspects of IT professionals in data domain mainly after completing 40 years of age .\nThanks you', 'Hi Krish I have one suggestion on internship.  When you go to your portal for internship, I dont really understand what to do after I select domain etc. What is next is not very well told. Probably it would be good if you clearly explain how to do internship.', 'Hi Krish, please make a video on how data scienctist can start a freelancing.', 'Yes sir it is so much valuable sharing\nBut sir I am 2 mounth old fresure in DS domin (just know about python, SQL, pandas, Numpy, etc basic stuff)\nI also used inueron platform for ML. but sir still i have no idea about diffrent algoritham and model deployment(but to fill reallife of data scientiest I try to made one movie recommandation website base on IMDb data set..its just like reverse engineering) even though can inueron provide internship?\n\nI really really want to do internship.\nPersonaly I met many company in surat(gujarat) but they r not required.  \n\nPlease guide me', 'hello sir, is postgrad diploma in AI and data science of two years form Canada beneficial? as I had done BCA so I cannot do masters there my only option is pg diploma.', "Hello sir, could you please make a video on how should one start if he wants to become a data scientist. Just a roadmap, as I'm from hospitality background and i know nothing about data science, so from where should i start, what are the skill that I've to learn. step by step", 'Sir what is the use of covariance matrix in fitting data in XY plot to find exponent. Please answer me...', 'Krish sir should I focus on big data too?', 'Can working people also can get internships? Or it is only freshers?', 'Hi krish , request you to pls complete nlp series', '125th viewer.. Can you tell current scenario of Analytics jobs... Is it decreasing this time?', 'Nice Video', 'Hello Krish\nCan I know for doing an internship, we need to aware of that technologies right?', 'Please make a video on data engineering that how to get a first job as data engineer like you made this video', 'Hi Krish Sir , I want to go to harvard university for masters in machine learning\nPlease give roadmap for that', 'Great wallpaper sir, looks so real !!!!!!!!!!!!!!', 'how can we get a data science internship', 'Thanks', 'Ab bas mil jaye ek join karke mauj karenge...,', 'Freshers(Recent Graduates) are not getting jobs, sir!!! In India, They need So called experience.', 'First Like And Comment ️', 'Hi Krish Naik, 3rd viewer', 'People still care about data science in 2022?']}] -- INFO
+2022-09-18 15:37:32,985 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 15:38:03,005 -- mongodb_data.py -- No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326ede4a7b635a80305a67f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]> -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/mongodb_data.py", line 45, in drop_old_data
+    coll.drop()
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 1193, in drop
+    self.__name, session=session, comment=comment, encrypted_fields=encrypted_fields
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/database.py", line 1061, in drop_collection
+    return self._drop_helper(name, session, comment)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/database.py", line 960, in _drop_helper
+    with self.__client._socket_for_writes(session) as sock_info:
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1239, in _socket_for_writes
+    server = self._select_server(writable_server_selector, session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1229, in _select_server
+    server = topology.select_server(server_selector)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 272, in select_server
+    server = self._select_server(selector, server_selection_timeout, address)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 261, in _select_server
+    servers = self.select_servers(selector, server_selection_timeout, address)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 223, in select_servers
+    server_descriptions = self._select_servers_loop(selector, server_timeout, address)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 240, in _select_servers_loop
+    % (self._error_message(selector), timeout, self.description)
+pymongo.errors.ServerSelectionTimeoutError: No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326ede4a7b635a80305a67f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]>
+2022-09-18 15:38:03,210 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 15:38:03,210 -- mongodb_data.py -- connected with momngodb MongoClient(host=['cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 15:38:33,231 -- mongodb_data.py -- No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326ee03a7b635a80305a680, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]> -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/mongodb_data.py", line 23, in upload_Videos_data
+    coll.insert_one(data)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 628, in insert_one
+    comment=comment,
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1447, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1729, in _tmp_session
+    s = self._ensure_session(session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1712, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1657, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 555, in _check_session_support
+    readable_server_selector, self.get_server_selection_timeout(), None
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 240, in _select_servers_loop
+    % (self._error_message(selector), timeout, self.description)
+pymongo.errors.ServerSelectionTimeoutError: No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326ee03a7b635a80305a680, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]>
+2022-09-18 15:38:33,510 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 15:39:03,528 -- mongodb_data.py -- No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326ee21a7b635a80305a682, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]> -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/mongodb_data.py", line 45, in drop_old_data
+    coll.drop()
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 1193, in drop
+    self.__name, session=session, comment=comment, encrypted_fields=encrypted_fields
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/_csot.py", line 105, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/database.py", line 1061, in drop_collection
+    return self._drop_helper(name, session, comment)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/database.py", line 960, in _drop_helper
+    with self.__client._socket_for_writes(session) as sock_info:
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1239, in _socket_for_writes
+    server = self._select_server(writable_server_selector, session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1229, in _select_server
+    server = topology.select_server(server_selector)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 272, in select_server
+    server = self._select_server(selector, server_selection_timeout, address)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 261, in _select_server
+    servers = self.select_servers(selector, server_selection_timeout, address)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 223, in select_servers
+    server_descriptions = self._select_servers_loop(selector, server_timeout, address)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 240, in _select_servers_loop
+    % (self._error_message(selector), timeout, self.description)
+pymongo.errors.ServerSelectionTimeoutError: No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326ee21a7b635a80305a682, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]>
+2022-09-18 15:39:03,879 -- mongodb_data.py -- mongodb-connection MongoClient(host=['cluster0-shard-00-02.obq5u.mongodb.net:27017', 'cluster0-shard-00-01.obq5u.mongodb.net:27017', 'cluster0-shard-00-00.obq5u.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-bsj85u-shard-0', tls=True) -- INFO
+2022-09-18 15:39:33,897 -- mongodb_data.py -- No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326ee3fa7b635a80305a683, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]> -- ERROR
+Traceback (most recent call last):
+  File "/home/aryan/Desktop/ineuron/youtube_project_challenge/youtube_scrapper/mongodb_data.py", line 34, in upload_Comments_section
+    coll.insert_one(data)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 628, in insert_one
+    comment=comment,
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/collection.py", line 562, in _insert_one
+    self.__database.client._retryable_write(acknowledged, _insert_command, session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1447, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1729, in _tmp_session
+    s = self._ensure_session(session)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1712, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1657, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 555, in _check_session_support
+    readable_server_selector, self.get_server_selection_timeout(), None
+  File "/home/aryan/anaconda3/envs/youtube_scrapper/lib/python3.7/site-packages/pymongo/topology.py", line 240, in _select_servers_loop
+    % (self._error_message(selector), timeout, self.description)
+pymongo.errors.ServerSelectionTimeoutError: No replica set members found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6326ee3fa7b635a80305a683, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-01.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('cluster0-shard-00-02.obq5u.mongodb.net', 27017) server_type: Unknown, rtt: None>]>
+2022-09-18 15:39:33,898 -- app.py -- we are in for loop 0 -- INFO
+2022-09-18 15:39:33,899 -- app.py -- dict created {'Title': 'Roadmap To Crack Your First Data Science Job', 'Videos_url': 'https://www.youtube.com/watch?v=V20ZZt8lVxM', 'Thumbnail': 'https://i.ytimg.com/vi/V20ZZt8lVxM/hqdefault.jpg', 'Views': 12656, 'Likes': '600', 'Total_Comments': '37 Comments', 'Commenter': ['Krish Naik', 'Ravinder Singh', 'Apurva Khomane', 'Prabhat Kumar', 'Sahana Md', 'A s', 'Parag Vachhani', 'Aaryan Divedi', 'Abhishek singh', 'Pawan Soni', 'ABHISHEK DUBEY', 'Poojitha sornapudi', 'c.n Bhaskar', 'Shubham Upadhyay', 'Raja', 'Udaybhaskar Savvana', 'Nick', 'A2 THE GENIUS', 'Jeet P Thakore', 'CommonSense 101', 'Rishi Raj', 'B Kumar', 'SATYAJIT KHOT', 'Dharma Teja', 'NETHAJI MAHENDRA', 'Majid Az'], 'Comments': ['Hello All,\r\nToday we are Launching Full Stack Data Scientist Bootcamp 2.0 With job guaranteed starting from September 17th 2022 from 03:00 PM to 06:00 PM (IST) Saturday - Sunday and 6pm-8pm will be the doubt clearning session. The instructor of the course will be me and Sudhanshu. This course also comes up with previous recorded videos and will be available for lifetime.\r\nPlease find the entire curicullum below and use Krish10 to get additional 10% off .\r\nhttps://bit.ly/3DuA1ez\r\n \nGo ahead and enroll and learn from the best. \r\nMentors will be myself and Sudhanshu Kumar', 'I m having 8 years career gap and found only person that motivate to move forward and provide right guidance. A big thanks to you sir', 'Thank you for keeping us motivatied', 'Dear Krish, \nPlz put some light on future growth aspects of IT professionals in data domain mainly after completing 40 years of age .\nThanks you', 'Hi Krish I have one suggestion on internship.  When you go to your portal for internship, I dont really understand what to do after I select domain etc. What is next is not very well told. Probably it would be good if you clearly explain how to do internship.', 'Hi Krish, please make a video on how data scienctist can start a freelancing.', 'Yes sir it is so much valuable sharing\nBut sir I am 2 mounth old fresure in DS domin (just know about python, SQL, pandas, Numpy, etc basic stuff)\nI also used inueron platform for ML. but sir still i have no idea about diffrent algoritham and model deployment(but to fill reallife of data scientiest I try to made one movie recommandation website base on IMDb data set..its just like reverse engineering) even though can inueron provide internship?\n\nI really really want to do internship.\nPersonaly I met many company in surat(gujarat) but they r not required.  \n\nPlease guide me', 'hello sir, is postgrad diploma in AI and data science of two years form Canada beneficial? as I had done BCA so I cannot do masters there my only option is pg diploma.', "Hello sir, could you please make a video on how should one start if he wants to become a data scientist. Just a roadmap, as I'm from hospitality background and i know nothing about data science, so from where should i start, what are the skill that I've to learn. step by step", 'Sir what is the use of covariance matrix in fitting data in XY plot to find exponent. Please answer me...', 'Krish sir should I focus on big data too?', 'Can working people also can get internships? Or it is only freshers?', 'Hi krish , request you to pls complete nlp series', '125th viewer.. Can you tell current scenario of Analytics jobs... Is it decreasing this time?', 'Nice Video', 'Hello Krish\nCan I know for doing an internship, we need to aware of that technologies right?', 'Please make a video on data engineering that how to get a first job as data engineer like you made this video', 'Hi Krish Sir , I want to go to harvard university for masters in machine learning\nPlease give roadmap for that', 'Great wallpaper sir, looks so real !!!!!!!!!!!!!!', 'how can we get a data science internship', 'Thanks', 'Ab bas mil jaye ek join karke mauj karenge...,', 'Freshers(Recent Graduates) are not getting jobs, sir!!! In India, They need So called experience.', 'First Like And Comment ️', 'Hi Krish Naik, 3rd viewer', 'People still care about data science in 2022?']} -- INFO
+2022-09-18 15:39:33,899 -- app.py -- my dict {'Title': 'Roadmap To Crack Your First Data Science Job', 'Videos_url': 'https://www.youtube.com/watch?v=V20ZZt8lVxM', 'Thumbnail': 'https://i.ytimg.com/vi/V20ZZt8lVxM/hqdefault.jpg', 'Views': 12656, 'Likes': '600', 'Total_Comments': '37 Comments', 'Commenter': ['Krish Naik', 'Ravinder Singh', 'Apurva Khomane', 'Prabhat Kumar', 'Sahana Md', 'A s', 'Parag Vachhani', 'Aaryan Divedi', 'Abhishek singh', 'Pawan Soni', 'ABHISHEK DUBEY', 'Poojitha sornapudi', 'c.n Bhaskar', 'Shubham Upadhyay', 'Raja', 'Udaybhaskar Savvana', 'Nick', 'A2 THE GENIUS', 'Jeet P Thakore', 'CommonSense 101', 'Rishi Raj', 'B Kumar', 'SATYAJIT KHOT', 'Dharma Teja', 'NETHAJI MAHENDRA', 'Majid Az'], 'Comments': ['Hello All,\r\nToday we are Launching Full Stack Data Scientist Bootcamp 2.0 With job guaranteed starting from September 17th 2022 from 03:00 PM to 06:00 PM (IST) Saturday - Sunday and 6pm-8pm will be the doubt clearning session. The instructor of the course will be me and Sudhanshu. This course also comes up with previous recorded videos and will be available for lifetime.\r\nPlease find the entire curicullum below and use Krish10 to get additional 10% off .\r\nhttps://bit.ly/3DuA1ez\r\n \nGo ahead and enroll and learn from the best. \r\nMentors will be myself and Sudhanshu Kumar', 'I m having 8 years career gap and found only person that motivate to move forward and provide right guidance. A big thanks to you sir', 'Thank you for keeping us motivatied', 'Dear Krish, \nPlz put some light on future growth aspects of IT professionals in data domain mainly after completing 40 years of age .\nThanks you', 'Hi Krish I have one suggestion on internship.  When you go to your portal for internship, I dont really understand what to do after I select domain etc. What is next is not very well told. Probably it would be good if you clearly explain how to do internship.', 'Hi Krish, please make a video on how data scienctist can start a freelancing.', 'Yes sir it is so much valuable sharing\nBut sir I am 2 mounth old fresure in DS domin (just know about python, SQL, pandas, Numpy, etc basic stuff)\nI also used inueron platform for ML. but sir still i have no idea about diffrent algoritham and model deployment(but to fill reallife of data scientiest I try to made one movie recommandation website base on IMDb data set..its just like reverse engineering) even though can inueron provide internship?\n\nI really really want to do internship.\nPersonaly I met many company in surat(gujarat) but they r not required.  \n\nPlease guide me', 'hello sir, is postgrad diploma in AI and data science of two years form Canada beneficial? as I had done BCA so I cannot do masters there my only option is pg diploma.', "Hello sir, could you please make a video on how should one start if he wants to become a data scientist. Just a roadmap, as I'm from hospitality background and i know nothing about data science, so from where should i start, what are the skill that I've to learn. step by step", 'Sir what is the use of covariance matrix in fitting data in XY plot to find exponent. Please answer me...', 'Krish sir should I focus on big data too?', 'Can working people also can get internships? Or it is only freshers?', 'Hi krish , request you to pls complete nlp series', '125th viewer.. Can you tell current scenario of Analytics jobs... Is it decreasing this time?', 'Nice Video', 'Hello Krish\nCan I know for doing an internship, we need to aware of that technologies right?', 'Please make a video on data engineering that how to get a first job as data engineer like you made this video', 'Hi Krish Sir , I want to go to harvard university for masters in machine learning\nPlease give roadmap for that', 'Great wallpaper sir, looks so real !!!!!!!!!!!!!!', 'how can we get a data science internship', 'Thanks', 'Ab bas mil jaye ek join karke mauj karenge...,', 'Freshers(Recent Graduates) are not getting jobs, sir!!! In India, They need So called experience.', 'First Like And Comment ️', 'Hi Krish Naik, 3rd viewer', 'People still care about data science in 2022?']} -- INFO
+2022-09-18 15:39:33,899 -- app.py -- [{'Title': 'Roadmap To Crack Your First Data Science Job', 'Videos_url': 'https://www.youtube.com/watch?v=V20ZZt8lVxM', 'Thumbnail': 'https://i.ytimg.com/vi/V20ZZt8lVxM/hqdefault.jpg', 'Views': 12656, 'Likes': '600', 'Total_Comments': '37 Comments', 'Commenter': ['Krish Naik', 'Ravinder Singh', 'Apurva Khomane', 'Prabhat Kumar', 'Sahana Md', 'A s', 'Parag Vachhani', 'Aaryan Divedi', 'Abhishek singh', 'Pawan Soni', 'ABHISHEK DUBEY', 'Poojitha sornapudi', 'c.n Bhaskar', 'Shubham Upadhyay', 'Raja', 'Udaybhaskar Savvana', 'Nick', 'A2 THE GENIUS', 'Jeet P Thakore', 'CommonSense 101', 'Rishi Raj', 'B Kumar', 'SATYAJIT KHOT', 'Dharma Teja', 'NETHAJI MAHENDRA', 'Majid Az'], 'Comments': ['Hello All,\r\nToday we are Launching Full Stack Data Scientist Bootcamp 2.0 With job guaranteed starting from September 17th 2022 from 03:00 PM to 06:00 PM (IST) Saturday - Sunday and 6pm-8pm will be the doubt clearning session. The instructor of the course will be me and Sudhanshu. This course also comes up with previous recorded videos and will be available for lifetime.\r\nPlease find the entire curicullum below and use Krish10 to get additional 10% off .\r\nhttps://bit.ly/3DuA1ez\r\n \nGo ahead and enroll and learn from the best. \r\nMentors will be myself and Sudhanshu Kumar', 'I m having 8 years career gap and found only person that motivate to move forward and provide right guidance. A big thanks to you sir', 'Thank you for keeping us motivatied', 'Dear Krish, \nPlz put some light on future growth aspects of IT professionals in data domain mainly after completing 40 years of age .\nThanks you', 'Hi Krish I have one suggestion on internship.  When you go to your portal for internship, I dont really understand what to do after I select domain etc. What is next is not very well told. Probably it would be good if you clearly explain how to do internship.', 'Hi Krish, please make a video on how data scienctist can start a freelancing.', 'Yes sir it is so much valuable sharing\nBut sir I am 2 mounth old fresure in DS domin (just know about python, SQL, pandas, Numpy, etc basic stuff)\nI also used inueron platform for ML. but sir still i have no idea about diffrent algoritham and model deployment(but to fill reallife of data scientiest I try to made one movie recommandation website base on IMDb data set..its just like reverse engineering) even though can inueron provide internship?\n\nI really really want to do internship.\nPersonaly I met many company in surat(gujarat) but they r not required.  \n\nPlease guide me', 'hello sir, is postgrad diploma in AI and data science of two years form Canada beneficial? as I had done BCA so I cannot do masters there my only option is pg diploma.', "Hello sir, could you please make a video on how should one start if he wants to become a data scientist. Just a roadmap, as I'm from hospitality background and i know nothing about data science, so from where should i start, what are the skill that I've to learn. step by step", 'Sir what is the use of covariance matrix in fitting data in XY plot to find exponent. Please answer me...', 'Krish sir should I focus on big data too?', 'Can working people also can get internships? Or it is only freshers?', 'Hi krish , request you to pls complete nlp series', '125th viewer.. Can you tell current scenario of Analytics jobs... Is it decreasing this time?', 'Nice Video', 'Hello Krish\nCan I know for doing an internship, we need to aware of that technologies right?', 'Please make a video on data engineering that how to get a first job as data engineer like you made this video', 'Hi Krish Sir , I want to go to harvard university for masters in machine learning\nPlease give roadmap for that', 'Great wallpaper sir, looks so real !!!!!!!!!!!!!!', 'how can we get a data science internship', 'Thanks', 'Ab bas mil jaye ek join karke mauj karenge...,', 'Freshers(Recent Graduates) are not getting jobs, sir!!! In India, They need So called experience.', 'First Like And Comment ️', 'Hi Krish Naik, 3rd viewer', 'People still care about data science in 2022?']}] -- INFO
+2022-09-18 15:39:33,915 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:39:33] "POST /scrapped_data HTTP/1.1" 200 - -- INFO
+2022-09-18 15:39:33,940 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:39:33] "[33mGET /style.css HTTP/1.1[0m" 404 - -- INFO
+2022-09-18 15:39:33,943 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:39:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:41:06,584 -- _internal.py -- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 -- INFO
+2022-09-18 15:41:06,585 -- _internal.py -- [33mPress CTRL+C to quit[0m -- INFO
+2022-09-18 15:41:06,585 -- _internal.py --  * Restarting with stat -- INFO
+2022-09-18 15:41:07,013 -- _internal.py --  * Debugger is active! -- WARNING
+2022-09-18 15:41:07,017 -- _internal.py --  * Debugger PIN: 998-182-262 -- INFO
+2022-09-18 15:41:11,635 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:41:11] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:41:11,646 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:41:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:41:48,983 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:41:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:42:56,922 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:42:56] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:42:56,938 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:42:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:43:17,561 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:43:17] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:43:17,572 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:43:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:43:48,150 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:43:48] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:43:48,161 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:43:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:44:05,233 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:44:05] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:44:05,247 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:44:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:44:12,159 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:44:12] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:44:12,170 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:44:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:44:19,938 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:44:19] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:44:19,949 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:44:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:44:32,462 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:44:32] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:44:32,474 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:44:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:44:51,602 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:44:51] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:44:51,612 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:44:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:46:37,896 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:46:37] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:46:37,909 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:46:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:46:55,652 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:46:55] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:46:55,662 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:46:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:47:09,742 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:47:09] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:47:09,753 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:47:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:47:34,741 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:47:34] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:47:34,752 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:47:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:47:54,684 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:47:54] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:47:54,697 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:47:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:48:13,954 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:48:13] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:48:13,965 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:48:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:49:02,791 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:49:02] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:49:02,804 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:49:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:55:14,053 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:55:14] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:55:14,065 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:55:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:58:03,693 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:58:03] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:58:03,704 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:58:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO
+2022-09-18 15:58:20,506 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:58:20] "GET / HTTP/1.1" 200 - -- INFO
+2022-09-18 15:58:20,517 -- _internal.py -- 127.0.0.1 - - [18/Sep/2022 15:58:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - -- INFO

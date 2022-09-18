@@ -1,0 +1,9 @@
+2022-09-16 16:21:08,636 -- sql.py -- mysql_database_connection --  -- INFO
+2022-09-16 16:21:08,636 -- sql.py -- 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''youtubers_data' ('channel_name' varchar(100), 'subscribers' varchar(12), 'no_of' at line 1 -- ERROR
+2022-09-16 16:24:58,132 -- sql.py -- mysql_database_connection --  -- INFO
+2022-09-16 16:24:58,149 -- sql.py -- youtubers_data table created successfully -- INFO
+2022-09-16 16:24:58,149 -- sql.py -- 1170 (42000): BLOB/TEXT column 'videos_id' used in key specification without a key length -- ERROR
+2022-09-16 16:39:08,432 -- sql.py -- mysql_database_connection --  -- INFO
+2022-09-16 16:39:08,435 -- sql.py -- youtubers_data table created successfully -- INFO
+2022-09-16 16:39:08,452 -- sql.py -- videos_data table created successfully -- INFO
+2022-09-16 16:39:08,469 -- sql.py -- comments_data table created successfully -- INFO

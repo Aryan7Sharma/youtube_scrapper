@@ -19,9 +19,8 @@ pymongo==4.2.0
 pytube==12.1.0
 requests==2.20.1
 selenium==4.2.0
-six	==1.15.0
+six==1.15.0
 soupsieve==2.0.1
-sqlite==3.39.2
 urllib3==1.26.12
 urllib3-secure-extra==0.1.0
 werkzeug==1.0.1

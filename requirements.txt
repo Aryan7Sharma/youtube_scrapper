@@ -21,8 +21,7 @@ requests==2.20.1
 selenium==4.2.0
 six==1.15.0
 soupsieve==2.0.1
-urllib3==1.26.12
-urllib3-secure-extra==0.1.0
+urllib3
 werkzeug==1.0.1
 xlml==0.1.2
 

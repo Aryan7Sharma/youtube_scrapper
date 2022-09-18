@@ -1,29 +1,29 @@
 beautifulsoup4 == 4.9.1
-bs4	== 0.0.1
-click==7.1.2
-flask==1.1.2
-flask-cors==3.0.9
-gtts==2.2.4
-gunicorn==20.0.4
-idna==3.4
-importlib-metadata==4.12.0
-itsdangerous==1.1.0
-jinja2==2.11.2
-lxml==4.9.1
-markupsafe==1.1.1
-mongodb-connector==0.2.0
-mysql-connector==2.2.9
-numpy==1.21.6
+bs4
+click
+flask
+flask-cors
+gtts
+gunicorn
+idna
+importlib-metadata
+itsdangerous
+jinja2
+lxml
+markupsafe
+mongodb-connector
+mysql-connector
+numpy
 pandas
-pymongo==4.2.0
-pytube==12.1.0
-requests==2.20.1
+pymongo
+pytube
+requests
 selenium==4.2.0
-six==1.15.0
-soupsieve==2.0.1
+six
+soupsieve
 urllib3
-werkzeug==1.0.1
-xlml==0.1.2
+werkzeug
+xlml
 
 
 
